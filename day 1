@@ -114,3 +114,30 @@ int main() {
 
     return 0;
 }
+
+//program 7
+#include <iostream>
+using namespace std;
+
+int main() {
+    int userID, password;
+
+    int correctID = 1234;
+    int correctPassword = 0;
+
+    
+    cout << "Enter User ID: ";
+    cin >> userID;
+
+    cout << "Enter Password: ";
+    cin >> password;
+
+    
+    if (userID == correctID && password == correctPassword) {
+        cout << "Login Correct" << endl;
+    } else {
+        cout << "Login Incorrect" << endl;
+    }
+
+    return 0;
+}
