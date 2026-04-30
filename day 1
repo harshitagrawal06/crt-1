@@ -96,7 +96,7 @@ int main() {
     
 }
 
-program 6 
+// program 6 average
 
 #include <iostream>
 using namespace std;
