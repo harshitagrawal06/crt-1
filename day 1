@@ -95,3 +95,22 @@ int main() {
     return 0;
     
 }
+
+program 6 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 20, c = 30;
+    int sum;
+    float average;
+
+    sum = a + b + c;
+    average = sum / 3.0;
+
+    cout << "Sum = " << sum << endl;
+    cout << "Average = " << average << endl;
+
+    return 0;
+}
