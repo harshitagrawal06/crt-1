@@ -1,1 +1,33 @@
+//if condition
+//program-1
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin>>age;
+    if(age>=18){
+        cout<<"vote eligible";
+    }
+    return 0;
+}
+
+
+//if-else condition 
+//program-2
+#include<iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin>>age;
+    if(age>=18){
+        cout<<"vote eligible";
+    }
+    else{
+        cout<<"not eligible";
+    }
+    return 0;
+}
 
