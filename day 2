@@ -150,3 +150,39 @@ int main(){
     }
     return 0;
 }
+
+
+
+// program-8
+// 1....for support
+// 2....for billing
+// 3....trchnical issues
+// 4....talk to again
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int choice;
+    cin>> choice;
+    
+    switch(choice ){
+        case 1:
+        cout<<"transferring call to the customer support...";
+        break;
+        
+        case 2:
+        cout<<"transferring call to billing and accounts...";
+        break;
+        
+        case 3:
+        cout<<"connecting call to the agent,,,";
+        break;
+        
+        case 4:
+        cout<<"invalid selection, enter avalid number...";
+        break;
+    }
+    return 0;
+}
