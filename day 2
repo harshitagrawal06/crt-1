@@ -120,3 +120,33 @@ int main(){
     cout<<sum;
     return 0;
 }
+
+
+
+
+//smart home lighting system
+//program-7
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    string dayOrNight;
+    bool motionDetected;
+    
+    cout<<"is it Day or Night? :";
+    cin>>dayOrNight;
+    cout<<"Is motionDetected ?(1 for yes , 0 for no) :";
+    cin>>motionDetected;
+    
+    if(dayOrNight ==  "Night" || dayOrNight == "Night"){
+        if(motionDetected){
+            cout<<"Turn on the Led light with 100% brightness..";
+        } else{
+            cout<<"Turn on the Led light with 10% brightness..";
+        }
+    } else{
+        cout<<"turn off the light...";
+    }
+    return 0;
+}
