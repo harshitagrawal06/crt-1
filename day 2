@@ -96,3 +96,27 @@ int main(){
     }
     return 0;
 }
+
+//break statement 
+//program-6
+//we have to add num. until we get a negative num.
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    int sum = 0;
+
+    while(true){
+        cin>>n;
+
+        if(n < 0){
+            break;
+        }
+        sum = sum + n;
+    }
+    cout<<sum;
+    return 0;
+}
