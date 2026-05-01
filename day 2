@@ -57,3 +57,20 @@ int main(){
     return 0;
 }
 
+//find the greatest number
+//program-4
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a,b;
+    int max_number;
+    
+    cin>>a>>b;
+    max_number = (a>b) ? a : b;
+    
+    cout<<max_number;
+    return 0;
+}
