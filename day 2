@@ -74,3 +74,25 @@ int main(){
     cout<<max_number;
     return 0;
 }
+
+
+//continue statement 
+//program-5
+//print 1 to n and avoid those num.divide by 3
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cin>>n;
+    
+    for(int i=1; i<=n; i++){
+        if(i%3 == 0){
+            continue;
+        }
+        cout<<i<<endl;
+    }
+    return 0;
+}
