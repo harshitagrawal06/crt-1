@@ -168,3 +168,23 @@ int main(){
      return 0;
 }
  
+
+
+// program - 11
+// water jar filling(while)
+//
+#include <iostream>
+using namespace std;
+
+int main(){
+    int currentwater = 0;
+    int add;
+    while(currentwater <500){
+        cout<<"glass has"<<currentwater<<"mi.and how much ?";
+        cin>>add;
+        currentwater = currentwater + add;
+    }
+    cout<<"glass is full with water :"<<currentwater<<"mi.";
+    
+}
+ 
