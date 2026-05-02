@@ -151,3 +151,20 @@ int main(){
      return 0;
 }
  
+// program - 10
+// smart phone unlock
+//try to unlock the phone until we get the correct password
+#include <iostream>
+using namespace std;
+
+int main(){
+    int password;
+    do{
+        cout<<"enter the pasword";
+        cin>>password;
+    }while(password != 1234);
+    cout<<"phone unlock";
+    
+     return 0;
+}
+ 
