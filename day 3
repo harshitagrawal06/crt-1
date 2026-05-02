@@ -53,3 +53,32 @@ int main() {
     }
     return 0;
 }
+
+program - 5
+PRINT 1 TO 10 USING DO while LOOP
+#include <iostream>
+using namespace std;
+
+int main(){
+  int i = 1;
+  do{
+      cout<<i<<endl;
+      i++;
+  }while(i<=10);
+    return 0;
+}
+
+
+program - 6
+PRINT 10 TO 1 USING DO while LOOP
+#include <iostream>
+using namespace std;
+
+int main(){
+    int i = 10;
+    do{
+        cout<<i<<endl;
+        i--;
+    }while(i>=1);
+    return 0;
+}
