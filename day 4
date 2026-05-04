@@ -26,7 +26,7 @@ int main(){
 }
 
 //program - 3
-// print the triangle
+// print the half triangle
 
 #include<iostream>
 using namespace std;
