@@ -45,6 +45,7 @@ int main(){
 }
 
 
+
 //program -- 3
 // making a function with argument and return type
 
@@ -63,6 +64,9 @@ int main(){
     cout<<areaOfRectangle;
 }
 
+
+
+
  //program -- 4
  //types of functions
  //no argument and no return type
@@ -77,6 +81,7 @@ int main(){
 //     DoorBell();
 //     return 0;
 // }
+
 
 
 //program -- 5
@@ -96,6 +101,7 @@ int main(){
 // }
 
 
+
 //program -- 6
 //types of functions
 //no argument , return type
@@ -113,6 +119,7 @@ int main(){
 // }
 
 
+
 //program -- 7
 //types of functions
 //no argument and no return type
@@ -128,6 +135,9 @@ int main(){
 //     return 0;
 // }
 
+
+
+
 //program -- 8
 //types of functions
 //argument and return type
@@ -141,3 +151,32 @@ int main(){
 //     cout<<currencyConversion(1000);
 //     return 0;
 // }
+
+
+
+// problem --9
+// function overloading
+
+#include<iostream>
+using namespace std;
+
+int add(int a,int b){
+    return a+b;
+}
+int add(int a,int b,int c){
+    return a+b+c;
+}
+int add(int a,int b,int c,int d){
+    return a+b+c+d;
+}
+int add(double a,double b){
+    return a+b;
+}
+
+int main(){
+    cout<<add(5,2)<<"\n";
+    cout<<add(5,2,3)<<"\n";
+    cout<<add(5,2,3,4)<<"\n";
+    cout<<add(5.0,2.0)<<"\n";
+
+}
