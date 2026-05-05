@@ -180,3 +180,20 @@ int main(){
     cout<<add(5.0,2.0)<<"\n";
 
 }
+
+
+//progrsm -- 10
+//pointer
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int age = 24;
+    int *ptr = &age;
+
+    cout<<age<<"\n";
+    cout<<ptr<<"\n";
+    cout<<*ptr;
+}
