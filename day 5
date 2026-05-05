@@ -195,5 +195,9 @@ int main(){
 
     cout<<age<<"\n";
     cout<<ptr<<"\n";
-    cout<<*ptr;
+    cout<<*ptr<<"\n";
+
+    *ptr = 28;
+    cout<< *ptr;
 }
+
