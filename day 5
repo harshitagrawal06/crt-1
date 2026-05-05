@@ -24,3 +24,22 @@ int main() {
 
     return 0;
 }
+
+
+
+//program -- 2
+// function declaration and initilization
+
+#include<iostream>
+using namespace std;
+
+void printmessage(){
+    cout<<"i am learning function";
+}
+
+int main(){
+    printmessage();
+
+    return 0;
+
+}
