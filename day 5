@@ -63,3 +63,81 @@ int main(){
     cout<<areaOfRectangle;
 }
 
+ //program -- 4
+ //types of functions
+ //no argument and no return type
+
+// #include<iostream>
+// using namespace std;
+
+// void DoorBell(){
+//     cout<<"ting tong";
+// }
+// int main(){
+//     DoorBell();
+//     return 0;
+// }
+
+
+//program -- 5
+//types of functions
+//argument and no return type
+
+// #include<iostream>
+// using namespace std;
+
+// void sendText(string message){
+//     cout<<message;
+// }
+
+// int main(){
+//     sendText("BJP WONS...");
+//     return 0;
+// }
+
+
+//program -- 6
+//types of functions
+//no argument , return type
+
+// #include<iostream>
+// using namespace std;
+
+// int ticketNumber(){
+//     return 101;
+// } 
+
+// int main(){
+//     cout<<ticketNumber();
+//     return 0;
+// }
+
+
+//program -- 7
+//types of functions
+//no argument and no return type
+
+// #include<iostream>
+// using namespace std;
+
+// void DoorBell(){
+//     cout<<"ting tong";
+// }
+// int main(){
+//     DoorBell();
+//     return 0;
+// }
+
+//program -- 8
+//types of functions
+//argument and return type
+// #include<iostream>
+// using namespace std;
+
+// int currencyConversion(int amountInUSD){
+//     return amountInUSD / 100;
+// }
+// int main(){
+//     cout<<currencyConversion(1000);
+//     return 0;
+// }
