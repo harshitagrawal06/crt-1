@@ -43,3 +43,23 @@ int main(){
     return 0;
 
 }
+
+
+//program -- 3
+// making a function with argument and return type
+
+#include<iostream>
+using namespace std;
+
+int area(int a, int b){
+    return a*b;
+}
+
+int main(){
+    int length = 10;
+    int width = 5;
+    int areaOfRectangle = area(length,width);
+
+    cout<<areaOfRectangle;
+}
+
