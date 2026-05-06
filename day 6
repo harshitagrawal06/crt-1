@@ -133,3 +133,24 @@ int main(){
     s1.introduction();
     s2.introduction();
 }
+
+
+
+//problem -- 7
+//access Modifiers
+//7.1 -- public
+
+#include<iostream>
+using namespace std;
+
+class publicPark{
+    public:
+    void enter(){
+        cout<<"anyone can enter in the park";
+    }
+};
+
+int main(){
+    publicPark p;
+    p.enter();
+}
