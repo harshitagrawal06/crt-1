@@ -80,10 +80,9 @@ int main() {
 
 
 //problem -- 4
-// Constructors 
-// Types -- 2.1 -- default
-//          2.2 -- Parameterized
-//          2.3 -- Copy
+// Constructors default
+// Parameterized
+
 
 // 2.1 -- Default Constructor
 
@@ -109,3 +108,32 @@ int main(){
     obj1.showDetails();
 }
 
+
+//problem -- 5
+//parameterized Costrucctor
+
+#include<iostream>
+using namespace std;
+
+class student{
+
+    public:
+    string name;
+    int id;
+
+    //constructor
+
+    student(string studentName, int studentID){
+        name = studentName;
+        id = studentID;
+    }
+
+    public:
+    void displayDetails(){
+        cout<<name<<" "<<id;
+    }
+};
+int main(){
+    student std1("harshit",0005);
+    std1.displayDetails();
+}
