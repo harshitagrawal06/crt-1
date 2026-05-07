@@ -80,7 +80,12 @@ int main() {
 
 
 //problem -- 4
-//defult constructor
+// Constructors 
+// Types -- 2.1 -- default
+//          2.2 -- Parameterized
+//          2.3 -- Copy
+
+// 2.1 -- Default Constructor
 
 #include<iostream>
 using namespace std;
