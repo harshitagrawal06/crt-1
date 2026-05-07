@@ -77,3 +77,30 @@ int main() {
     d.print();
     
 }
+
+
+//problem -- 4
+//defult constructor
+
+#include<iostream>
+using namespace std;
+
+class wifiConnection{
+    public:
+    string networkName;
+    int password;
+
+    wifiConnection(){
+        networkName = "harshjhit";
+        password = 1325;
+    }
+
+    void showDetails(){
+        cout<<"network name is :"<<networkName<<"and its password is"<<password;
+    }
+};
+int main(){
+    wifiConnection obj1;
+    obj1.showDetails();
+}
+
