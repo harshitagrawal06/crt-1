@@ -1,1 +1,79 @@
+//problem -- 1
+//access specifier
+//public
 
+#include<iostream>
+using namespace std;
+
+class BankAccount{
+
+    private:
+    int balance = 5000;
+
+    public:
+    void showBalance(){
+        cout<<"Balance in your account is :"<<balance;
+    }
+
+};
+
+
+int main(){
+    BankAccount myaccount;
+    myaccount.showBalance();
+}
+
+
+//problem -- 2
+//access specifier
+//protected
+
+#include<iostream>
+using namespace std;
+
+class parent{
+    protected:
+    int secretCode = 1234;
+};
+class child : public parent{
+    public:
+    void accessOfSecretCode(){
+        cout<<"secretCode of the locker is :"<<secretCode;
+    }
+};
+
+int main(){
+    child obj1;
+    obj1.accessOfSecretCode();
+}
+
+
+
+//problem -- 3
+//access specifier
+//protected and private and public
+
+
+#include <iostream>
+using namespace std;
+
+class har {
+private:
+    int a = 10;
+
+protected:
+    int b = 20;
+
+public:
+    int c = 30;
+
+    void print() {
+        cout << a << "\n" << b << "\n" << c;
+    }
+};
+
+int main() {
+    har d;
+    d.print();
+    
+}
