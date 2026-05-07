@@ -84,8 +84,6 @@ int main() {
 // Parameterized
 
 
-// 2.1 -- Default Constructor
-
 #include<iostream>
 using namespace std;
 
