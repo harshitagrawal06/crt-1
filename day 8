@@ -1,1 +1,165 @@
+//inheritance 
+//type -- single 
+//problem -- 1
 
+// #include<iostream>
+// using namespace std;
+
+// class vehicle{
+//     public:
+//     void start(){
+//         cout<<"vehicle start :"<<"\n";
+//     }
+// };
+
+// class car :public vehicle{
+//     public:
+//     void drive(){
+//         cout<<"car is running :"<<"\n";
+//     }
+// };
+
+// int main(){
+//     car obj1;
+//     obj1.drive();
+//     obj1.start();
+// }
+
+
+
+
+//inheritance
+//type -- multilevel
+//problem -- 2
+
+// #include<iostream>
+// using namespace std;
+
+// class vehicle{
+//     public:
+//     void start(){
+//         cout<<"vehicle start :"<<"\n";
+//     }
+// };
+
+// class car :public vehicle{
+//     public:
+//     void drive(){
+//         cout<<"car is running :"<<"\n";
+//     }
+// };
+
+// class speedoMeter : public car{
+//     public:
+//     void speed(){
+//         cout<<"car is running at 60km/h"<<"\n";
+//     }
+// };
+
+// int main(){
+//     speedoMeter obj1;
+//     obj1.speed();
+//     obj1.start();
+//     obj1.drive();
+// }
+
+
+
+
+// inheritance
+// type -- hierarchical
+// problem -- 3
+
+// #include<iostream>
+// using namespace std;
+
+// class Vehicle {
+// public:
+//     void start() {
+//         cout << "Vehicle starts" <<"\n";
+//     }
+// };
+// class Bike : public Vehicle {
+// public:
+//     void drive(){
+//         cout << "Bike is running" << "\n";
+//     }
+// };
+
+// class Car : public Vehicle {
+// public:
+//     void chalna() {
+//         cout << "Car is challing" << "\n";
+//     }
+// };
+// int main() {
+//     Car obj1;
+//     Bike obj2;
+    
+//     obj1.chalna();
+//     obj1.start();
+    
+//     obj2.start();
+//     obj2.drive();
+// }
+
+
+
+
+// inheritance
+// type -- multiple
+// problem -- 4
+
+// #include<iostream>
+// using namespace std;
+
+// class parent1{
+//     public:
+//     void giveMeMoney(){
+//         cout<<"mummy paise do mujhe"<<"\n";
+//     }
+// };
+
+// class parent2{
+//     public:
+//     void giveMeMoney(){
+//         cout<<"papa paise do mujhe"<<"\n";
+//     }
+// };
+
+// class child : public parent1,public parent2{
+
+// };
+
+// int main(){
+//     child obj1;
+//     obj1.parent1:: giveMeMoney();
+//     obj1.parent2:: giveMeMoney();
+// }
+
+
+
+
+
+//inheritance
+// type -- hybrid
+// problem -- 5
+
+
+// #include<iostream>
+// using namespace std;
+
+// class A {
+//     public:
+//     void print(){
+//         cout << "BJP WON";
+//     }
+// };
+
+// class B : virtual public A{};
+// class C: virtual public A{};
+// class D : public B,public C{};
+// int main(){
+//     D obj1;
+//     obj1.print();
+// }
